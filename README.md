@@ -1,5 +1,5 @@
 <!--TITLE-->
-<h1 align="center">✨OneBitCode🤓</h1>
+<h1 align="center">✨OneBitCode🤓</h2>
 
 <p align="center">Este é o meu espaço pessoal onde compartilho os desafios,exercícios e projetos do curso de JavaScript FullStack da OneBitCode<p/>
 
@@ -9,7 +9,7 @@
 
 <img alt="Front-end tools" title="Front-end" src="https://skillicons.dev/icons?i=js"/>
 
-<h1>Aqui ficará o link para o repositório dos projetos onebitcode</h1>
+<h2>Aqui ficará o link para o repositório dos projetos onebitcode</h2>
 <hr>
 
 ### 🚧Long Life Learning
