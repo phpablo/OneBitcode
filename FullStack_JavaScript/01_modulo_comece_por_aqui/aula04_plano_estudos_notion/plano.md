@@ -1,0 +1,1 @@
+Planejamento de Estudos no notion para conclusão em 14 Semanas

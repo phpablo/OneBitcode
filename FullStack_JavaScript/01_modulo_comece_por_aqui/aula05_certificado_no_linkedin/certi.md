@@ -1,0 +1,1 @@
+Certificado no linkedin fazendo upload no googleDrive e colando no post do linkedin o link do drive e uma foto pra representar

@@ -1,0 +1,1 @@
+### Formatos WEBP e SVG são as mais otimizadas pra site
