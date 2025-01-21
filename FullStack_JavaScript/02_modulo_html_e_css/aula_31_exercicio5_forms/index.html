@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio - Inputs HTML</title>
+</head>
+
+<body>
+
+<h1>MINHA RESOLUÇÃO</h1>
+<br><br>
+<hr>
+<h1>Formulário de Inscrição</h1>
+<br>
+<form action="" method="get">
+  <label for="nome">Nome:</label><br>
+  <input type="text"><br><br>
+  <label for="email">Email:</label><br>
+  <input type="email"><br><br>
+  <label for="zap">Whatsapp:</label><br>
+  <input type="number"><br><br>
+  
+  <label>Area de Atuação:</label><br>
+  <input type="radio" name="atuacao" id="dev" value="dev">
+  <label for="dev">Developer</label>
+  <input type="radio" name="atuacao" id="qa" value="qa">
+  <label for="qa">Quality Assurance (QA)</label>
+  <input type="radio" name="atuacao" id="dados" value="dados">
+  <label for="dados">Análise de Dados</label>
+  <input type="radio" name="atuacao" id="infra" value="infra">
+  <label for="infra">Infraestrutura</label>
+  <hr>
+  <label>Observações:</label><br>
+  <textarea name="resume" id="resume" cols="30" rows="10"></textarea>
+</form>
+
+
+<h1>RESOLUÇÃO DA AULA</h1>
+<br><br>
+<hr>
+
+<h1>Formulário de Inscrição</h1>
+    <form action="#" method="post">
+      <div>
+        <label for="nome">Nome:</label>
+        <br>
+        <input type="text" id="nome" name="nome" required />
+      </div>
+      <br>
+      <div>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <br>
+      <div>
+        <label for="whatsapp">WhatsApp:</label>
+        <br>
+        <input type="text" id="whatsapp" name="whatsapp" required />
+      </div>
+      <br>
+      <div>
+        <label>Área de atuação:</label>
+        <br>
+        <input type="radio" name="area" id="dev" value="dev" required>
+        <label for="dev">Desenvolvimento</label>
+
+        <input type="radio" name="area" id="qa" value="qa" required>
+        <label for="qa">Quality Assurance (QA)</label>
+
+        <input type="radio" name="area" id="dados" value="dados" required>
+        <label for="dados">Análise de Dados</label>
+
+        <input type="radio" name="area" id="infra" value="infra" required>
+        <label for="infra">Infraestrutura</label>
+      </div>
+      <br>
+      <div>
+        <label for="observacoes">Observações:</label>
+        <br>
+        <textarea id="observacoes" name="observacoes"></textarea>
+      </div>
+      <br>
+      <input type="checkbox" id="ofertas" name="ofertas" checked required />
+      <label for="ofertas">Desejo receber novidades e ofertas por email.</label>
+      <br>
+      <input type="submit" value="Enviar" />
+    </form>
+</body>
+
+</html>
